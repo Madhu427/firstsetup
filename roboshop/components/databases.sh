@@ -158,3 +158,8 @@ STAT_CHECK $? "Install My SQL"
 
 systemctl enable mysqld &>>${LOG_FILE} && systemctl start mysqld &>>${LOG_FILE}
 STAT_CHECK $? "Start My SQL"
+
+DEFAULT_PASSWORD=${grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}'}
+echo "ALTER USER 'root'@'localhost' IDENTIFIED BY 'Roboshop@1';" >/tmp/pass.sql
+mysql -uroot -p"${DEFAULT_PASSWORD}" </tmp/pass.sql
+
