@@ -40,7 +40,7 @@ cd mongodb-main &>>${LOG_FILE}
 STAT_CHECK $? "Extracting Mongodb"
 
 mongo < catalogue.js &>>${LOG_FILE} && mongo < users.js &>>${LOG_FILE}
-STAT_CHECK $? " mongodb service"
+STAT_CHECK $? "mongodb service"
 
 
 
