@@ -10,3 +10,5 @@ STAT_CHECK() {
     echo -e "\e[1;32m${2} - Success\e[0m"
   fi
 }
+
+set-hostname -skip-apply ${COMPONENT}

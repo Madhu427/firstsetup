@@ -6,7 +6,7 @@ USER_ID=$(id -u)
   fi
 
 
-COMPONENT=$1
+export COMPONENT=$1
 if [ -z "${COMPONENT}" ]; then
   echo -e "\e[1;31mComponent input is missing\e[0m"
   exit
