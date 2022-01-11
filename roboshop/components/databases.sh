@@ -60,7 +60,7 @@ STAT_CHECK $? "Redis Repo Download "
 yum install redis -y &>>${LOG_FILE}
 STAT_CHECK $? "Redis Install"
 
-sed -i "s/127.0.0.1/0.0.0.0/" /etc/redis.conf && /etc/redis/redis.conf
+sed -i "s/127.0.0.1/0.0.0.0/" /etc/redis.conf &>>${LOG_FILE}
 STAT_CHECK $? "Updated redis"
 
 systemctl enable redis &>>${LOG_FILE} && systemctl start redis &>>${LOG_FILE}
