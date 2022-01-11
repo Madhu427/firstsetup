@@ -19,6 +19,11 @@
 #Finally restart the service once to effect the changes.
 #
 ## systemctl restart nginx
+
+
+LOG_FILE=/tmp/roboshop.log
+rm -f ${LOG_FILE}
+
 STAT_CHECK() {
 
   if [ $? -ne 0 ]; then
@@ -30,11 +35,11 @@ STAT_CHECK() {
 }
 
 
-yum install nginx -y
+yum install nginx -y &>>${LOG_FILE}
 STAT_CHECK $? "Nginx installation"
 
 
-curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
+curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip" &>>${LOG_FILE}
 STAT_CHECK $? "Download Frontend"
 
 cd /usr/share/nginx/html
