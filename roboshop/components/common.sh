@@ -21,7 +21,7 @@ STAT_CHECK() {
     echo -e "\e[1${2}${SPACE} - \e[1;31mFAILED\e[0m"
     exit 1
   else
-    echo -e "\e[1${2}${SPACE} - \e[1;32m]Success\e[0m"
+    echo -e "\e[1${2}${SPACE} - \e[1;32mSuccess\e[0m"
   fi
 }
 
