@@ -177,7 +177,7 @@ fi
 
 DOWNLOAD mysql
 
-cd /tmp/mysql-main &>>${LOG_FILE}
+cd /tmp/mysql-main
 mysql -u root -pRoboshop@1 <shipping.sql &>>${LOG_FILE}
 STAT_CHECK $? "shipping service"
 
