@@ -175,3 +175,9 @@ if [ $? -ne 0 ]; then
 fi
   STAT_CHECK $? "Unistall password plugin"
 
+DOWNLOAD mysql
+
+cd /tmp/mysql-main &>>${LOG_FILE} && mysql -u root -pRoboShop@1 <shipping.sql &>>${LOG_FILE}
+STAT_CHECK $? "shipping service"
+
+
