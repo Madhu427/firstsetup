@@ -161,24 +161,24 @@ STAT_CHECK $? "Start My SQL"
 
 DEFAULT_PASSWORD=$(grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}')
 
-echo 'show databases;' | mysql -uroot -pRoboshop@1  &>>${LOG_FILE}
+echo 'show databases;' | mysql -uroot -pRoboShop@1  &>>${LOG_FILE}
 if [ $? -ne 0 ]; then
 echo "ALTER USER 'root'@'localhost' IDENTIFIED BY 'Roboshop@1';" >/tmp/pass.sql
 mysql --connect-expired-password -uroot -p"${DEFAULT_PASSWORD}" </tmp/pass.sql
 fi
 STAT_CHECK $? "setup new root password"
 
-echo 'show plugins;' | mysql -uroot -pRoboshop@1 2>>${LOG_FILE} | grep validate_password &>>${LOG_FILE}
+echo 'show plugins;' | mysql -uroot -pRoboShop@1 2>>${LOG_FILE} | grep validate_password &>>${LOG_FILE}
 
 if [ $? -ne 0 ]; then
-  echo "uninstall plugin validate_password" | mysql -uroot -pRoboshop@1 &>>${LOG_FILE}
+  echo "uninstall plugin validate_password" | mysql -uroot -pRoboShop@1 &>>${LOG_FILE}
 fi
   STAT_CHECK $? "Uninstall password plugin"
 
 DOWNLOAD mysql
 
 cd /tmp/mysql-main
-mysql -uroot -pRoboshop@1 <shipping.sql &>>${LOG_FILE}
+mysql -uroot -pRoboShop@1 <shipping.sql &>>${LOG_FILE}
 STAT_CHECK $? "shipping service"
 
 
