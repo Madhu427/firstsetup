@@ -44,3 +44,25 @@ STAT_CHECK $? "Load schema"
 
 
 
+## curl -L https://raw.githubusercontent.com/roboshop-devops-project/redis/main/redis.repo -o /etc/yum.repos.d/redis.repo
+## yum install redis -y
+#Update the BindIP from 127.0.0.1 to 0.0.0.0 in config file /etc/redis.conf & /etc/redis/redis.conf
+#
+#Start Redis Database
+#
+## systemctl enable redis
+## systemctl start redis
+
+echo -e "\e[1;33m----------------> REDIS SETUP<--------------\e[0m"
+curl -L https://raw.githubusercontent.com/roboshop-devops-project/redis/main/redis.repo -o /etc/yum.repos.d/redis.repo &>>${LOG_FILE}
+STAT_CHECK $? "Redis Repo Download "
+
+yum install redis -y &>>${LOG_FILE}
+STAT_CHECK $? "Redis Install"
+
+sed -i "s/127.0.0.1/0.0.0.0/" /etc/redis.conf & /etc/redis/redis.conf
+STAT_CHECK $? "Updated redis"
+
+systemctl enable redis &>>${LOG_FILE} && systemctl start redis &>>${LOG_FILE}
+STAT_CHECK $? "Start Redis"
+
