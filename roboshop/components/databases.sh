@@ -97,5 +97,9 @@ STAT_CHECK $? "Rabbit MQ installed"
 systemctl enable rabbitmq-server &>>${LOG_FILE} && systemctl start rabbitmq-server &>>${LOG_FILE}
 STAT_CHECK $? "Start Rabbit MQ"
 
+rabbitmqctl add_user roboshop roboshop123 &>>${LOG_FILE}
+STAT_CHECK $? "App user setup"
+
+
 
 
