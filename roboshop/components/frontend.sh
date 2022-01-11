@@ -22,12 +22,11 @@
 STAT_CHECK() {
 
   if [ $? -ne 0 ]; then
-    echo "\e[1;31m${2} - FAILED\e[0m"
+    echo -e "\e[1;31m${2} - FAILED\e[0m"
     exit 1
-  fi
   else
-    echo "\e[1;32m${2} - Success\e[0m}
-
+    echo -e "\e[1;32m${2} - Success\e[0m}
+  fi
 }
 
 
