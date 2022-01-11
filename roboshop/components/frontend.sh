@@ -38,7 +38,7 @@ STAT_CHECK $? "Remove old html files"
 cd /tmp && unzip -o /tmp/frontend.zip &>>${LOG_FILE}
 STAT_CHECK $? "Extracting Frontend content"
 
-cd /tmp/frontend-main/static && cp -r */usr/share/nginx/html/
+cd /tmp/frontend-main/static && cp -r * /usr/share/nginx/html
 STAT_CHECK $? "copy frontend content"
 
 cp /tmp/frontend-main/localhost.conf /etc/nginx/default.d/roboshop.conf
