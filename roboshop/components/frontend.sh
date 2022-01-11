@@ -22,19 +22,21 @@
 STAT_CHECK() {
 
   if [ $? -ne 0 ]; then
-    echo "${2}"
+    echo "\e[1;31m${2} - FAILED\e[0m"
     exit 1
   fi
+  else
+    echo "\e[1;32m${2} - Success\e[0m}
 
 }
 
 
 yum install nginx -y
-STAT_CHECK $? "Nginx installation Failed"
+STAT_CHECK $? "Nginx installation"
 
 
 curl -s -L -o /tmp/frontend.zip "https://github.com/roboshop-devops-project/frontend/archive/main.zip"
-STAT_CHECK $? "Download Front ned failed"
+STAT_CHECK $? "Download Frontend"
 
 cd /usr/share/nginx/html
 rm -rf *
