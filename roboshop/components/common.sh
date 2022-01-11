@@ -1,8 +1,7 @@
 LOG_FILE=/tmp/roboshop.log
 rm -f ${LOG_FILE}
 
-MAX_LENGTH=${cat components/*.sh | grep -v -w cat | grep STAT_CHECK | awk -F '"' '{print $2}'| awk '{print length}'|sort | tail -1
-}
+MAX_LENGTH=${cat components/*.sh | grep -v -w cat | grep STAT_CHECK | awk -F '"' '{print $2}'| awk '{print length}'|sort | tail -1}
 
 if [ $MAX_LENGTH -lt 26 ]; then
        MAX_LENGTH =26
