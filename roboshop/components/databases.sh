@@ -85,11 +85,12 @@ STAT_CHECK $? "Start Redis"
 
 echo -e "\e[1;33m----------------> RABBITMQ SETUP<--------------\e[0m"
 
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash &>>${LOG_FILE}
+STAT_CHECK $? "Yum Repository setup"
+
 yum install https://github.com/rabbitmq/erlang-rpm/releases/download/v23.2.6/erlang-23.2.6-1.el7.x86_64.rpm -y &>>${LOG_FILE}
 STAT_CHECK $? "Erlang dependency"
 
-curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash &>>${LOG_FILE}
-STAT_CHECK $? "Yum Repository setup"
 
 yum install rabbitmq-server -y &>>{LOG_FILE}
 STAT_CHECK $? "Rabbit MQ installed"
