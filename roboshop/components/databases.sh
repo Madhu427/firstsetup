@@ -34,10 +34,13 @@ STAT_CHECK $? "Start mongodb"
 sed -i "s/127.0.0.1/0.0.0.0/" /etc/mongod.conf &>>${LOG_FILE}
 STAT_CHECK $? "Update mongodb"
 
-curl -s -L -o /tmp/mongodb.zip "https://github.com/roboshop-devops-project/mongodb/archive/main.zip" &>>${LOG_FILE}
-STAT_CHECK $? "Download Schema"
+DOWNLOAD mongodb
 
-cd /tmp &>>${LOG_FILE} && unzip mongodb.zip &>>${LOG_FILE} && cd mongodb-main &>>${LOG_FILE}
-STAT_CHECK $? "Unzipped Mongodb"
+cd mongodb-main &>>${LOG_FILE}
+STAT_CHECK $? "Extracting Mongodb"
+
+mongo < catalogue.js &>>${LOG_FILE} && mongo < users.js &>>${LOG_FILE}
+STAT_CHECK $? " mongodb service"
+
 
 
