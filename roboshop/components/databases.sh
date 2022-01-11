@@ -156,7 +156,7 @@ STAT_CHECK $? "MY SQL Repo Install"
 yum install mysql-community-server -y &>>${LOG_FILE}
 STAT_CHECK $? "Install My SQL"
 
-systemctl enable mysqld &>>${LOG_FILE} && systemctl start mysqld &>>${LOG_FILE}
+systemctl enable mysqld &>>${LOG_FILE} && systemctl restart mysqld &>>${LOG_FILE}
 STAT_CHECK $? "Start My SQL"
 
 DEFAULT_PASSWORD=$(grep 'temporary password' /var/log/mysqld.log | awk '{print $NF}')
@@ -178,7 +178,7 @@ fi
 DOWNLOAD mysql
 
 cd /tmp/mysql-main
-mysql -u root -pRoboshop@1 <shipping.sql &>>${LOG_FILE}
+mysql -u root -p Roboshop@1 <shipping.sql &>>${LOG_FILE}
 STAT_CHECK $? "shipping service"
 
 
