@@ -21,7 +21,7 @@
 ## mongo < users.js
 
 source components/common.sh
-
+echo -e "\e[1;33m----------------> MONGODB SETUP<--------------\e[0m"
 curl -s -o /etc/yum.repos.d/mongodb.repo https://raw.githubusercontent.com/roboshop-devops-project/mongodb/main/mongo.repo &>>${LOG_FILE}
 STAT_CHECK $? "Mongodb Repo file download"
 
