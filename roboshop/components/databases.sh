@@ -179,6 +179,6 @@ DOWNLOAD mysql
 
 cd /tmp/mysql-main
 mysql -uroot -pRoboShop@1 <shipping.sql &>>${LOG_FILE}
-STAT_CHECK $? "shipping service"
+STAT_CHECK $? "Load Schema"
 
 
