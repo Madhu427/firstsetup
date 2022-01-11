@@ -19,7 +19,7 @@
 
 USER_ID=$(id -u) {
   if [ ${USER_ID} -ne 0 ]; then
-    echo "/e[1;31mYou Should be the  root user to run the Script\e[0m"
+    echo -e "\e[1;31mYou Should be the  root user to run the Script\e[0m"
     exit
   fi
 }
