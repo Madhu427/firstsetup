@@ -4,7 +4,7 @@ rm -f ${LOG_FILE}
 MAX_LENGTH=${cat components/databases.sh | grep -v -w cat | grep STAT_CHECK | awk -F '"' '{print $2}'| awk '{print length}'|sort | tail -1
 }
 
-if [ ${MAX_LENGTH} -lt 26 ]; then
+if [ $MAX_LENGTH -lt 26 ]; then
        MAX_LENGTH =26
 fi
 
