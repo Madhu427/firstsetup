@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="updated sed IP for shipping">
-      <change afterPath="$PROJECT_DIR$/roboshop/components/payment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="pyament config">
       <change beforePath="$PROJECT_DIR$/roboshop/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/common.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Rabbitmq Config">
-      <created>1641919735328</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1641919735328</updated>
     </task>
     <task id="LOCAL-00042" summary="Rabbitmq Config">
       <created>1641920567048</created>
@@ -400,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641995912079</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="pyament config">
+      <created>1642003729311</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1642003729312</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="to check the Status" />
     <MESSAGE value="testing frontend config" />
     <MESSAGE value="databases - mongodb" />
     <MESSAGE value=" adding source to databases" />
@@ -440,6 +437,7 @@
     <MESSAGE value="cart sed ip update" />
     <MESSAGE value="Shipping.conf" />
     <MESSAGE value="updated sed IP for shipping" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated sed IP for shipping" />
+    <MESSAGE value="pyament config" />
+    <option name="LAST_COMMIT_MESSAGE" value="pyament config" />
   </component>
 </project>
