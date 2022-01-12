@@ -2,4 +2,4 @@
 
 source components/common.sh
 
-NODESJS catalogue
+NODEJS catalogue

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="catalogue ip &amp; service">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="NODEJS() ---&gt; common.sh" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,27 +52,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00026" summary="allignment">
-      <created>1641915303806</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1641915303806</updated>
-    </task>
-    <task id="LOCAL-00027" summary="allignment">
-      <created>1641915474079</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1641915474079</updated>
-    </task>
-    <task id="LOCAL-00028" summary="allignment">
-      <created>1641915599148</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1641915599148</updated>
     </task>
     <task id="LOCAL-00029" summary="allignment">
       <created>1641915670462</created>
@@ -398,7 +375,28 @@
       <option name="project" value="LOCAL" />
       <updated>1641988062119</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="catalogue ip &amp; service">
+      <created>1641988546910</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1641988546910</updated>
+    </task>
+    <task id="LOCAL-00076" summary="NODEJS() ---&gt; common.sh">
+      <created>1641989007013</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1641989007013</updated>
+    </task>
+    <task id="LOCAL-00077" summary="NODEJS() ---&gt; common.sh">
+      <created>1641989028119</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1641989028119</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,6 +433,7 @@
     <MESSAGE value="catalogue config" />
     <MESSAGE value="catalogue config - chown" />
     <MESSAGE value="catalogue ip &amp; service" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue ip &amp; service" />
+    <MESSAGE value="NODEJS() ---&gt; common.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="NODEJS() ---&gt; common.sh" />
   </component>
 </project>
