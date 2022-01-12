@@ -26,47 +26,74 @@ STAT_CHECK() {
 
 set-hostname -skip-apply ${COMPONENT}
 
+SYSTEMD_SETUP() {
+
+   chown roboshop:roboshop -R /home/roboshop
+
+    sed -i -e "s/CATALOGUE_ENDPOINT/catalogue.firstsetup.public/" \
+    -e "s/MONGO_DNSNAME/mongodb.firstsetup.public/" \
+    -e "s/REDIS_ENDPOINT/redis.firstsetup.public/" \
+     -e "s/MONGO_ENDPOINT/mongodb.firstsetup.public/" \
+  /home/roboshop/${component}/systemd.service &>>${LOG_FILE} && mv /home/roboshop/${component}/systemd.service /etc/systemd/system/${component}.service &>>${LOG_FILE}
+
+    STAT_CHECK $? "Mongodb ip address updated"
+
+    systemctl daemon-reload &>>${LOG_FILE} && systemctl start ${component}  &>>${LOG_FILE} && systemctl enable ${component} &>>${LOG_FILE}
+    STAT_CHECK $? "${component} service start"
+
+}
+
+APP_USER_SETUP() {
+   id roboshop &>>${LOG_FILE}
+      if [ $? -ne 0 ]; then
+      useradd roboshop &>>${LOG_FILE}
+      STAT_CHECK $? "Add Application user"
+      fi
+
+     DOWNLOAD ${component}
+}
+
 DOWNLOAD() {
  curl -s -L -o /tmp/${1}.zip "https://github.com/roboshop-devops-project/${1}/archive/main.zip" &>>${LOG_FILE}
  STAT_CHECK $? "Download ${1} Schema"
 
  cd /tmp && unzip -o /tmp/${1}.zip &>>${LOG_FILE}
  STAT_CHECK $? "Unzipped ${1} content"
+
+  rm -rf /home/roboshop/${component} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/*  /home/roboshop/${component} &>>${LOG_FILE}
+   STAT_CHECK $? "Copy ${component} content"
 }
 
 
 NODEJS() {
-
+  component=${1}
   yum install nodejs make gcc-c++ -y &>>${LOG_FILE}
   STAT_CHECK $? "Node JS Install"
 
-  id roboshop &>>${LOG_FILE}
-   if [ $? -ne 0 ]; then
-   useradd roboshop &>>${LOG_FILE}
-   STAT_CHECK $? "Add Application user"
-   fi
+  APP_USER_SETUP
 
-  component=${1}
-  DOWNLOAD ${component}
 
-  rm -rf /home/roboshop/${component} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/*  /home/roboshop/${component} &>>${LOG_FILE}
-  STAT_CHECK $? "Copy ${component} content"
 
   cd /home/roboshop/${component} && npm install --unsafe-perm &>>${LOG_FILE}
   STAT_CHECK $? "npm installed"
 
+  SYSTEMD_SETUP
 
 
-  chown roboshop:roboshop -R /home/roboshop
 
-  sed -i -e "s/CATALOGUE_ENDPOINT/catalogue.firstsetup.public/" \
-  -e "s/MONGO_DNSNAME/mongodb.firstsetup.public/" \
-  -e "s/REDIS_ENDPOINT/redis.firstsetup.public/" \
-   -e "s/MONGO_ENDPOINT/mongodb.firstsetup.public/" \
-/home/roboshop/${component}/systemd.service &>>${LOG_FILE} && mv /home/roboshop/${component}/systemd.service /etc/systemd/system/${component}.service &>>${LOG_FILE}
+}
 
-  STAT_CHECK $? "Mongodb ip address updated"
+JAVA(){
+component=${1}
 
-  systemctl daemon-reload &>>${LOG_FILE} && systemctl start ${component}  &>>${LOG_FILE} && systemctl enable ${component} &>>${LOG_FILE}
-  STAT_CHECK $? "${component} service start"
+yum install maven -y &>>${LOG_FILE}
+STAT_CHECK $? "Install maven"
+
+APP_USER_SETUP
+
+cd /home/roboshop/${component} && mvn clean package &>>${LOG_FILE} && mv target/${component}-1.0.jar {component}.jar &>>${LOG_FILE}
+STAT_CHECK $? "compile java code"
+
+SYSTEMD_SETUP
+
 }

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="NODEJS cart">
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="cart sed ip update">
+      <change afterPath="$PROJECT_DIR$/roboshop/components/shipping.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/common.sh" afterDir="false" />
     </list>
@@ -55,20 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Redis Config">
-      <created>1641917173162</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1641917173162</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Rabbitmq Config">
-      <created>1641917719413</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1641917719413</updated>
     </task>
     <task id="LOCAL-00038" summary="Rabbitmq Config">
       <created>1641918670796</created>
@@ -399,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641991417480</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="cart sed ip update">
+      <created>1641991975654</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1641991975654</updated>
+    </task>
+    <task id="LOCAL-00086" summary="cart sed ip update">
+      <created>1641992222090</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1641992222090</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +415,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implemented just frontend code" />
     <MESSAGE value="$? --&gt; to check the Status" />
     <MESSAGE value="added .sh to check" />
     <MESSAGE value="to check the Status" />
@@ -439,6 +439,7 @@
     <MESSAGE value="user -- config" />
     <MESSAGE value="sed update" />
     <MESSAGE value="NODEJS cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="NODEJS cart" />
+    <MESSAGE value="cart sed ip update" />
+    <option name="LAST_COMMIT_MESSAGE" value="cart sed ip update" />
   </component>
 </project>
