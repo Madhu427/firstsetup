@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="catalogue config - chown">
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="catalogue ip &amp; service">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop/components/catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/catalogue.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00024" summary=" adding source to databases">
-      <created>1641913910299</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1641913910299</updated>
-    </task>
-    <task id="LOCAL-00025" summary=" adding source to databases">
-      <created>1641914197074</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1641914197074</updated>
     </task>
     <task id="LOCAL-00026" summary="allignment">
       <created>1641915303806</created>
@@ -399,7 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641987227294</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="catalogue config - chown">
+      <created>1641987695152</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1641987695152</updated>
+    </task>
+    <task id="LOCAL-00074" summary="catalogue ip &amp; service">
+      <created>1641988062119</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1641988062119</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,6 +434,7 @@
     <MESSAGE value="databases --&gt; if [ $? -eq 0 ];" />
     <MESSAGE value="catalogue config" />
     <MESSAGE value="catalogue config - chown" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue config - chown" />
+    <MESSAGE value="catalogue ip &amp; service" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue ip &amp; service" />
   </component>
 </project>
