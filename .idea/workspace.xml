@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="catalogue config">
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="catalogue config - chown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/components/catalogue.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/catalogue.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00023" summary=" adding source to databases">
-      <created>1641913158060</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1641913158061</updated>
     </task>
     <task id="LOCAL-00024" summary=" adding source to databases">
       <created>1641913910299</created>
@@ -398,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641985141010</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="catalogue config - chown">
+      <created>1641987227293</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1641987227294</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,6 +434,7 @@
     <MESSAGE value="databases -mysql" />
     <MESSAGE value="databases --&gt; if [ $? -eq 0 ];" />
     <MESSAGE value="catalogue config" />
-    <option name="LAST_COMMIT_MESSAGE" value="catalogue config" />
+    <MESSAGE value="catalogue config - chown" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue config - chown" />
   </component>
 </project>
