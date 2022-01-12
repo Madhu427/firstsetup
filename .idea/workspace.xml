@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="Sed Rabbit mq">
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="frontend--common.sh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/components/frontend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/frontend.sh" afterDir="false" />
     </list>
@@ -55,20 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00052" summary="mysql -f&amp;f">
-      <created>1641924192971</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1641924192971</updated>
-    </task>
-    <task id="LOCAL-00053" summary="mysql -f&amp;f">
-      <created>1641924401244</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1641924401244</updated>
     </task>
     <task id="LOCAL-00054" summary="mysql -f&amp;f">
       <created>1641924557338</created>
@@ -399,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1642013065366</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="frontend--common.sh">
+      <created>1642013533160</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1642013533160</updated>
+    </task>
+    <task id="LOCAL-00102" summary="frontend--common.sh">
+      <created>1642013596726</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1642013596726</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Redis Config" />
     <MESSAGE value="Rabbitmq Config" />
     <MESSAGE value="mysql Config" />
     <MESSAGE value="my sql password" />
@@ -439,6 +438,7 @@
     <MESSAGE value="DOWNLOAD()" />
     <MESSAGE value="GOLANG" />
     <MESSAGE value="Sed Rabbit mq" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sed Rabbit mq" />
+    <MESSAGE value="frontend--common.sh" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontend--common.sh" />
   </component>
 </project>

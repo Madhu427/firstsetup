@@ -28,7 +28,14 @@ cd /tmp/frontend-main/static && cp -r * /usr/share/nginx/html
 STAT_CHECK $? "copy frontend content"
 
 cp /tmp/frontend-main/localhost.conf /etc/nginx/default.d/roboshop.conf
-STAT_CHECK $? "update Nginx"
+STAT_CHECK $? "copy Nginx"
+
+sed -i -e "/catalogue/ s/localhost/catalogue.firstsetup.public/" \
+      -e "/user/ s/localhost/user.firstsetup.public/" \
+      -e "/cart/ s/localhost/cart.firstsetup.public/" \
+      -e "/shipping/ s/localhost/shipping.firstsetup.public/" \
+      -e "/payment/ s/localhost/payment.firstsetup.public/" /etc/nginx/default.d/roboshop.conf &>>${LOG_FILE}
+ STAT_CHECK $? "Update roboshop.conf"
 
 
 systemctl enable nginx &>>${LOG_FILE} && systemctl start nginx &>>${LOG_FILE}
