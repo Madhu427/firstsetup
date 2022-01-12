@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="user -- config">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="sed update">
       <change beforePath="$PROJECT_DIR$/roboshop/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/common.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roboshop/components/user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/user.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +54,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00033" summary="allignment">
-      <created>1641916464917</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1641916464917</updated>
     </task>
     <task id="LOCAL-00034" summary="Redis Config">
       <created>1641916859934</created>
@@ -400,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641989582103</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="sed update">
+      <created>1641990338657</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1641990338658</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Checking rootuser with front end" />
     <MESSAGE value="roboshop.sh keep code dry" />
     <MESSAGE value="implemented just frontend code" />
     <MESSAGE value="$? --&gt; to check the Status" />
@@ -440,6 +437,7 @@
     <MESSAGE value="NODEJS() ---&gt; common.sh" />
     <MESSAGE value="NODEJS() ---&gt; common.sh   component=${1}" />
     <MESSAGE value="user -- config" />
-    <option name="LAST_COMMIT_MESSAGE" value="user -- config" />
+    <MESSAGE value="sed update" />
+    <option name="LAST_COMMIT_MESSAGE" value="sed update" />
   </component>
 </project>
