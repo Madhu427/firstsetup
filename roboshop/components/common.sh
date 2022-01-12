@@ -110,10 +110,23 @@ PYTHON() {
 
   APP_USER_SETUP
 
-  cd /home/roboshop/payment && pip3 install -r requirements.txt &>>${LOG_FILE}
+  cd /home/roboshop/${component} && pip3 install -r requirements.txt &>>${LOG_FILE}
   STAT_CHECK $? "Install the dependencies"
 
   SYSTEMD_SETUP
 
 
+}
+
+GOLANG() {
+  component=${1}
+
+  yum install golang -y &>>${LOG_FILE}
+  STAT_CHECK $? "Install golang"
+
+  APP_USER_SETUP
+
+  cd /home/roboshop/${component} &>>${LOG_FILE} && go mod init dispatch &>>${LOG_FILE}  && go get && go build &>>${LOG_FILE}
+
+  SYSTEMD_SETUP
 }
