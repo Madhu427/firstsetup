@@ -127,7 +127,7 @@ GOLANG() {
 
   APP_USER_SETUP
 
-  cd /home/roboshop/${component} &>>${LOG_FILE} && go mod init dispatch &>>${LOG_FILE}  && go get && go build &>>${LOG_FILE}
+  cd /home/roboshop/${component} &>>${LOG_FILE} && go mod init dispatch &>>${LOG_FILE}  && go get &>>${LOG_FILE}  && go build &>>${LOG_FILE}
   STAT_CHECK $? "Install golang dependencies}"
 
   SYSTEMD_SETUP
