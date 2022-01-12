@@ -65,6 +65,7 @@ DOWNLOAD() {
  cd /tmp && unzip -o /tmp/${1}.zip &>>${LOG_FILE}
  STAT_CHECK $? "Unzipped ${1} content"
 
+
   rm -rf /home/roboshop/${component} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/*  /home/roboshop/${component} &>>${LOG_FILE}
    STAT_CHECK $? "Copy ${component} content"
 }
@@ -127,6 +128,6 @@ GOLANG() {
   APP_USER_SETUP
 
   cd /home/roboshop/${component} &>>${LOG_FILE} && go mod init dispatch &>>${LOG_FILE}  && go get && go build &>>${LOG_FILE}
-
+  STAT_CHECK $? "Install golang dependencies}"
   SYSTEMD_SETUP
 }
