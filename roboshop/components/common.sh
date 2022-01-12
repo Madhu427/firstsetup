@@ -46,7 +46,7 @@ NODEJS() {
    STAT_CHECK $? "Add Application user"
    fi
 
-  component=${q}
+  component=${1}
   DOWNLOAD ${component}
 
   rm -rf /home/roboshop/${component} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/*  /home/roboshop/${component} &>>${LOG_FILE}
