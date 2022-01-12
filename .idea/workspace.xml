@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="user -- config">
-      <change afterPath="$PROJECT_DIR$/roboshop/components/user.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/common.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roboshop/components/user.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/user.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +56,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00031" summary="allignment">
-      <created>1641915889254</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1641915889254</updated>
-    </task>
-    <task id="LOCAL-00032" summary="allignment">
-      <created>1641915965112</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1641915965112</updated>
     </task>
     <task id="LOCAL-00033" summary="allignment">
       <created>1641916464917</created>
@@ -398,7 +386,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641989211778</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="user -- config">
+      <created>1641989510041</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1641989510041</updated>
+    </task>
+    <task id="LOCAL-00081" summary="user -- config">
+      <created>1641989582103</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1641989582103</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
