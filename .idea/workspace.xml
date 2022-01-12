@@ -55,13 +55,6 @@
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
     </task>
-    <task id="LOCAL-00022" summary="databases - mongodb">
-      <created>1641910625363</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1641910625364</updated>
-    </task>
     <task id="LOCAL-00023" summary=" adding source to databases">
       <created>1641913158060</created>
       <option name="number" value="00023" />
@@ -398,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641984550695</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="catalogue config">
+      <created>1641985141010</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1641985141010</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
