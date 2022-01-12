@@ -170,15 +170,14 @@ STAT_CHECK $? "setup new root password"
 
 echo 'show plugins;' | mysql -uroot -pRoboShop@1 2>>${LOG_FILE} | grep validate_password &>>${LOG_FILE}
 
-if [ $? -ne 0 ]; then
+if [ $? -eq 0 ]; then
   echo "uninstall plugin validate_password" | mysql -uroot -pRoboShop@1 &>>${LOG_FILE}
-fi
   STAT_CHECK $? "Uninstall password plugin"
-
+fi
 DOWNLOAD mysql
 
 cd /tmp/mysql-main
 mysql -uroot -pRoboShop@1 <shipping.sql &>>${LOG_FILE}
-STAT_CHECK $? "Load Schema"
+STAT_CHECK $? "Load the Schema"
 
 
