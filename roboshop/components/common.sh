@@ -66,7 +66,7 @@ DOWNLOAD() {
  STAT_CHECK $? "Unzipped ${1} content"
 
 
-  rm -rf /home/roboshop/${component} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/*  /home/roboshop/${component} &>>${LOG_FILE}
+  rm -rf /home/roboshop/${component}  &>>${LOG_FILE} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/*  /home/roboshop/${component} &>>${LOG_FILE}
    STAT_CHECK $? "Copy ${component} content"
 }
 
@@ -129,5 +129,6 @@ GOLANG() {
 
   cd /home/roboshop/${component} &>>${LOG_FILE} && go mod init dispatch &>>${LOG_FILE}  && go get && go build &>>${LOG_FILE}
   STAT_CHECK $? "Install golang dependencies}"
+
   SYSTEMD_SETUP
 }
