@@ -30,9 +30,10 @@ yum install nodejs make gcc-c++ -y &>>${LOG_FILE}
 STAT_CHECK $? "Node JS Install"
 
 id roboshop &>>${LOG_FILE}
-if [ $? -ne 0 ]; then
-useradd roboshop &>>${LOG_FILE}
-STAT_CHECK $? "Add Application user"
+ if [ $? -ne 0 ]; then
+ useradd roboshop &>>${LOG_FILE}
+ STAT_CHECK $? "Add Application user"
+ fi
 
 DOWNLOAD catalogue
 
