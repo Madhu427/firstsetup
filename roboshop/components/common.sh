@@ -99,3 +99,18 @@ STAT_CHECK $? "compile java code"
 SYSTEMD_SETUP
 
 }
+
+PYTHON() {
+  component=${1}
+  yum install python36 gcc python3-devel -y &>>${LOG_FILE}
+  STAT_CHECK $? "Install Python"
+
+  APP_USER_SETUP
+
+  cd /home/roboshop/payment && pip3 install -r requirements.txt &>>${LOG_FILE}
+  STAT_CHECK $? "Install the dependencies"
+
+  SYSTEMD_SETUP
+
+
+}
