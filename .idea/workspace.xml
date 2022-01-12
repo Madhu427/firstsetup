@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="cart sed ip update">
-      <change afterPath="$PROJECT_DIR$/roboshop/components/shipping.sh" afterDir="false" />
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="Shipping.conf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/common.sh" afterDir="false" />
     </list>
@@ -56,13 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Rabbitmq Config">
-      <created>1641918670796</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1641918670796</updated>
     </task>
     <task id="LOCAL-00039" summary="Rabbitmq Config">
       <created>1641918989414</created>
@@ -400,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641992222090</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Shipping.conf">
+      <created>1641995267642</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1641995267642</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="$? --&gt; to check the Status" />
     <MESSAGE value="added .sh to check" />
     <MESSAGE value="to check the Status" />
     <MESSAGE value="testing frontend config" />
@@ -440,6 +438,7 @@
     <MESSAGE value="sed update" />
     <MESSAGE value="NODEJS cart" />
     <MESSAGE value="cart sed ip update" />
-    <option name="LAST_COMMIT_MESSAGE" value="cart sed ip update" />
+    <MESSAGE value="Shipping.conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shipping.conf" />
   </component>
 </project>
