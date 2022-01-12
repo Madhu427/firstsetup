@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="databases --&gt; if [ $? -eq 0 ];" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23Y6N4An1KmuI7nK0QKiCMnleQF" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\IdeaProjects\firstsetup\roboshop" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="" />
+      <created>1641898634209</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641898634209</updated>
+    </task>
+    <task id="LOCAL-00018" summary="testing frontend config">
+      <created>1641909164613</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1641909164613</updated>
+    </task>
+    <task id="LOCAL-00019" summary="testing frontend config">
+      <created>1641909293647</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1641909293647</updated>
+    </task>
+    <task id="LOCAL-00020" summary="testing frontend config">
+      <created>1641909469870</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1641909469870</updated>
+    </task>
+    <task id="LOCAL-00021" summary="testing frontend config">
+      <created>1641909832043</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1641909832043</updated>
+    </task>
+    <task id="LOCAL-00022" summary="databases - mongodb">
+      <created>1641910625363</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1641910625364</updated>
+    </task>
+    <task id="LOCAL-00023" summary=" adding source to databases">
+      <created>1641913158060</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1641913158061</updated>
+    </task>
+    <task id="LOCAL-00024" summary=" adding source to databases">
+      <created>1641913910299</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1641913910299</updated>
+    </task>
+    <task id="LOCAL-00025" summary=" adding source to databases">
+      <created>1641914197074</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1641914197074</updated>
+    </task>
+    <task id="LOCAL-00026" summary="allignment">
+      <created>1641915303806</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1641915303806</updated>
+    </task>
+    <task id="LOCAL-00027" summary="allignment">
+      <created>1641915474079</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1641915474079</updated>
+    </task>
+    <task id="LOCAL-00028" summary="allignment">
+      <created>1641915599148</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1641915599148</updated>
+    </task>
+    <task id="LOCAL-00029" summary="allignment">
+      <created>1641915670462</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1641915670462</updated>
+    </task>
+    <task id="LOCAL-00030" summary="allignment">
+      <created>1641915776251</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1641915776251</updated>
+    </task>
+    <task id="LOCAL-00031" summary="allignment">
+      <created>1641915889254</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1641915889254</updated>
+    </task>
+    <task id="LOCAL-00032" summary="allignment">
+      <created>1641915965112</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1641915965112</updated>
+    </task>
+    <task id="LOCAL-00033" summary="allignment">
+      <created>1641916464917</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1641916464917</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Redis Config">
+      <created>1641916859934</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1641916859934</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Redis Config">
+      <created>1641916933049</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1641916933049</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Redis Config">
+      <created>1641917173162</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1641917173162</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Rabbitmq Config">
+      <created>1641917719413</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1641917719413</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Rabbitmq Config">
+      <created>1641918670796</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1641918670796</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Rabbitmq Config">
+      <created>1641918989414</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1641918989414</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Rabbitmq Config">
+      <created>1641919465549</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1641919465549</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Rabbitmq Config">
+      <created>1641919735328</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1641919735328</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Rabbitmq Config">
+      <created>1641920567048</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1641920567049</updated>
+    </task>
+    <task id="LOCAL-00043" summary="mysql Config">
+      <created>1641921158307</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1641921158307</updated>
+    </task>
+    <task id="LOCAL-00044" summary="my sql password">
+      <created>1641921966552</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1641921966552</updated>
+    </task>
+    <task id="LOCAL-00045" summary="my sql password">
+      <created>1641922381516</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1641922381516</updated>
+    </task>
+    <task id="LOCAL-00046" summary="my sql password">
+      <created>1641922479757</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1641922479757</updated>
+    </task>
+    <task id="LOCAL-00047" summary="my sql password">
+      <created>1641922627157</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1641922627157</updated>
+    </task>
+    <task id="LOCAL-00048" summary="my sql password">
+      <created>1641922797917</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1641922797917</updated>
+    </task>
+    <task id="LOCAL-00049" summary="mysql - uninstall pwd">
+      <created>1641923659335</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1641923659335</updated>
+    </task>
+    <task id="LOCAL-00050" summary="mysql - uninstall pwd">
+      <created>1641923808934</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1641923808954</updated>
+    </task>
+    <task id="LOCAL-00051" summary="mysql - uninstall pwd">
+      <created>1641923903876</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1641923903876</updated>
+    </task>
+    <task id="LOCAL-00052" summary="mysql -f&amp;f">
+      <created>1641924192971</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1641924192971</updated>
+    </task>
+    <task id="LOCAL-00053" summary="mysql -f&amp;f">
+      <created>1641924401244</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1641924401244</updated>
+    </task>
+    <task id="LOCAL-00054" summary="mysql -f&amp;f">
+      <created>1641924557338</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1641924557338</updated>
+    </task>
+    <task id="LOCAL-00055" summary="mysql -f&amp;f">
+      <created>1641924962955</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1641924962955</updated>
+    </task>
+    <task id="LOCAL-00056" summary="mysql -f&amp;f">
+      <created>1641925128566</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1641925128567</updated>
+    </task>
+    <task id="LOCAL-00057" summary="mysql -f&amp;f">
+      <created>1641925990275</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1641925990275</updated>
+    </task>
+    <task id="LOCAL-00058" summary="mysql -f&amp;f">
+      <created>1641926086796</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1641926086796</updated>
+    </task>
+    <task id="LOCAL-00059" summary="mysql -f&amp;f">
+      <created>1641926300346</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1641926300346</updated>
+    </task>
+    <task id="LOCAL-00060" summary="mysql -f&amp;f">
+      <created>1641926420976</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1641926420976</updated>
+    </task>
+    <task id="LOCAL-00061" summary="removing ; in mysql pwd">
+      <created>1641926650461</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1641926650462</updated>
+    </task>
+    <task id="LOCAL-00062" summary="removing ; in mysql pwd">
+      <created>1641926762805</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1641926762805</updated>
+    </task>
+    <task id="LOCAL-00063" summary="removing ; in mysql pwd">
+      <created>1641926925748</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1641926925748</updated>
+    </task>
+    <task id="LOCAL-00064" summary="removing ; in mysql pwd">
+      <created>1641927295149</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1641927295149</updated>
+    </task>
+    <task id="LOCAL-00065" summary="databases -mysql">
+      <created>1641927439320</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1641927439321</updated>
+    </task>
+    <task id="LOCAL-00066" summary="databases -mysql">
+      <created>1641927481339</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1641927481339</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Checking rootuser with front end" />
+    <MESSAGE value="roboshop.sh keep code dry" />
+    <MESSAGE value="implemented just frontend code" />
+    <MESSAGE value="$? --&gt; to check the Status" />
+    <MESSAGE value="added .sh to check" />
+    <MESSAGE value="to check the Status" />
+    <MESSAGE value="testing frontend config" />
+    <MESSAGE value="databases - mongodb" />
+    <MESSAGE value=" adding source to databases" />
+    <MESSAGE value="allignment" />
+    <MESSAGE value="Redis Config" />
+    <MESSAGE value="Rabbitmq Config" />
+    <MESSAGE value="mysql Config" />
+    <MESSAGE value="my sql password" />
+    <MESSAGE value="mysql - uninstall pwd" />
+    <MESSAGE value="mysql -f&amp;f" />
+    <MESSAGE value="removing ; in mysql pwd" />
+    <MESSAGE value="databases -mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="databases -mysql" />
+  </component>
+</project>
