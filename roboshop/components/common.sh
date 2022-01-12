@@ -65,7 +65,7 @@ DOWNLOAD() {
 
  cd /tmp && unzip -o /tmp/${1}.zip &>>${LOG_FILE}
  STAT_CHECK $? "Unzipped ${1} content"
- if [ ! -z ${component}]; then
+ if [ ! -z ${component} ]; then
 
   rm -rf /home/roboshop/${component}  &>>${LOG_FILE} && mkdir -p /home/roboshop/${component} && cp -r /tmp/${component}-main/*  /home/roboshop/${component} &>>${LOG_FILE}
    STAT_CHECK $? "Copy ${component} content"
