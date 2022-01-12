@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="GOLANG">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roboshop/components/common.sh" beforeDir="false" afterPath="$PROJECT_DIR$/roboshop/components/common.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,27 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00047" summary="my sql password">
-      <created>1641922627157</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1641922627157</updated>
-    </task>
-    <task id="LOCAL-00048" summary="my sql password">
-      <created>1641922797917</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1641922797917</updated>
-    </task>
-    <task id="LOCAL-00049" summary="mysql - uninstall pwd">
-      <created>1641923659335</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1641923659335</updated>
     </task>
     <task id="LOCAL-00050" summary="mysql - uninstall pwd">
       <created>1641923808934</created>
@@ -398,7 +378,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642011699484</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="GOLANG">
+      <created>1642012216339</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1642012216339</updated>
+    </task>
+    <task id="LOCAL-00097" summary="GOLANG">
+      <created>1642012346053</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1642012346053</updated>
+    </task>
+    <task id="LOCAL-00098" summary="GOLANG">
+      <created>1642012379458</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1642012379458</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

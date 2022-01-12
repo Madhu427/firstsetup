@@ -38,6 +38,7 @@ SYSTEMD_SETUP() {
      -e "s/DBHOST/mysql.firstsetup.public/" \
       -e "s/USERHOST/user.firstsetup.public/" \
       -e "s/CARTHOST/cart.firstsetup.public/" \
+      -e "s/RABBITMQ-IP/rabbitmq.firstsetup.public/" \
   /home/roboshop/${component}/systemd.service &>>${LOG_FILE} && mv /home/roboshop/${component}/systemd.service /etc/systemd/system/${component}.service &>>${LOG_FILE}
 
     STAT_CHECK $? "Mongodb ip address updated"
