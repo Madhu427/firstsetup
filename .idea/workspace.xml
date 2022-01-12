@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="databases --&gt; if [ $? -eq 0 ];" />
+    <list default="true" id="5b40d51b-60a3-42da-b283-7a300e897e4e" name="Changes" comment="catalogue config">
+      <change afterPath="$PROJECT_DIR$/roboshop/components/catalogue.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -44,20 +55,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641898634209</updated>
-    </task>
-    <task id="LOCAL-00018" summary="testing frontend config">
-      <created>1641909164613</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1641909164613</updated>
-    </task>
-    <task id="LOCAL-00019" summary="testing frontend config">
-      <created>1641909293647</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1641909293647</updated>
     </task>
     <task id="LOCAL-00020" summary="testing frontend config">
       <created>1641909469870</created>
@@ -388,7 +385,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641927481339</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="databases --&gt; if [ $? -eq 0 ];">
+      <created>1641981221261</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1641981221263</updated>
+    </task>
+    <task id="LOCAL-00068" summary="databases --&gt; if [ $? -eq 0 ];">
+      <created>1641981248880</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1641981248880</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,6 +432,8 @@
     <MESSAGE value="mysql -f&amp;f" />
     <MESSAGE value="removing ; in mysql pwd" />
     <MESSAGE value="databases -mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="databases -mysql" />
+    <MESSAGE value="databases --&gt; if [ $? -eq 0 ];" />
+    <MESSAGE value="catalogue config" />
+    <option name="LAST_COMMIT_MESSAGE" value="catalogue config" />
   </component>
 </project>
