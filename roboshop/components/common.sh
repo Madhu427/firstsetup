@@ -43,7 +43,7 @@ SYSTEMD_SETUP() {
 
     STAT_CHECK $? "Mongodb ip address updated"
 
-    systemctl daemon-reload &>>${LOG_FILE} && systemctl start ${component}  &>>${LOG_FILE} && systemctl enable ${component} &>>${LOG_FILE}
+    systemctl daemon-reload &>>${LOG_FILE} && systemctl restart ${component}  &>>${LOG_FILE} && systemctl enable ${component} &>>${LOG_FILE}
     STAT_CHECK $? "${component} service start"
 
 }
